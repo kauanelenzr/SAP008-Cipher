@@ -1,0 +1,21 @@
+#offset {
+    width: 7%;
+}
+h1 {
+    text-align: center;
+}
+#selectOffset {
+    text-align: center;
+}
+#encodeText {
+    text-align: center;
+}
+#decodeText {
+    text-align: center;
+}
+#encodeButton {
+    text-align: center;
+}
+#decodeButton {
+    text-align: center;
+}
