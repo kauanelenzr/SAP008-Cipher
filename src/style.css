@@ -3,19 +3,24 @@
 }
 h1 {
     text-align: center;
+    font-size: 300%;
 }
 #selectOffset {
     text-align: center;
 }
 #encodeText {
     text-align: center;
+    display: block;
 }
 #decodeText {
     text-align: center;
+    display: block;
 }
 #encodeButton {
     text-align: center;
+    display: block;
 }
 #decodeButton {
     text-align: center;
+    display: blockd;
 }

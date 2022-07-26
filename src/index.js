@@ -1,3 +1,8 @@
-import cipher from './cipher.js';
+import encode from './cipher.js';
 
-console.log(cipher);
+const answer = document.getElementById('encode');
+const button = document.getElementById('encodeButton');
+button.addEventListener("click",function(){
+
+    alert(answer.value);
+})
