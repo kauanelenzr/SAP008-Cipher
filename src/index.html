@@ -8,60 +8,35 @@
   </head>
 
   <body>
-
-    <div id="title">
-      <h1>Cifra de Cesar</h1>
-    </div>
-<br>
-    <div id="selectOffset">
-      <h3>Selecione o deslocamento das letras</h3>
-      <select name="offset" id="offset">
-        <option value="zero">0</option>
-        <option value="one">1</option>
-        <option value="two">2</option>
-        <option value="three">3</option>
-        <option value="four">4</option>
-        <option value="five">5</option>
-        <option value="six">6</option>
-        <option value="seven">7</option>
-        <option value="eight">8</option>
-        <option value="nine">9</option>
-        <option value="ten">10</option>
-        <option value="eleven">11</option>
-        <option value="twelve">12</option>
-        <option value="thirteen">13</option>
-        <option value="fourteen">14</option>
-        <option value="fiveteen">15</option>
-        <option value="sixteen">16</option>
-        <option value="seventeen">17</option>
-        <option value="eighteen">18</option>
-        <option value="nineteen">19</option>
-        <option value="twenty">20</option>
-        <option value="twentyOne">21</option>
-        <option value="twentyTwo">22</option>
-        <option value="twentyThree">23</option>
-        <option value="twentyFour">24</option>
-        <option value="twentyFive">25</option>
-      </select>
-    </div>
-<br>
-    <div id="encodeText">
-      <h4>Escreva a mensagem que quer codificar:</h4>
-      <textarea name="encode" id="encode" cols="50" rows="15" value="texto"></textarea>
-    </div>
-<br>
-<div id="encodeButton">
-  <button>Codificar</button>
-</div>
-    <div id="decodeText">
-      <h4>Escreva a mensagem que quer decodificar:</h4>
-      <textarea name="decode" id="decode" cols="50" rows="15"></textarea>
-    </div>
-    <br>
-    <div id="decodeButton">
-      <button>Decodificar</button>
+    
+    <header>
+      <img src="cypher.png">
+      <h1>Cypher Project</h1>
+    </header>
+    
+    
+    <div id="cifrar">
+      <br>Escreva a palavra que deseja cifrar:</br>
+      <textarea name="textoCifra" id="textoCifragem" cols="30" rows="10" value="texto"></textarea>
+      <br>Escolha o deslocamento das letras:</br>
+      <input id="deslocamentoCifragem" type="number" value="offset">
+      <br>
+      <button id="botaoCifragem">Cifrar</button>
+      <br>
+      <div id="respostaCifragem"></div>
     </div>
 
+    <div id="decifrar">
+      <br>Escreva a palavra que deseja decifrar:</br>
+      <textarea name="textoDecifra" id="textoDecifragem" cols="30" rows="10" value="texto"></textarea>
+      <br>Escolha o deslocamento das letras:</br>
+      <input id="deslocamentoDecifragem" type="number" value="offset">
+      <br>
+      <button id="botaoDecifragem">Decifrar</button>
+      <br>
+      <div id="respostaDecifragem"></div>
+    </div>
+    
     <script src="index.js" type="module"></script>
 
   </body>

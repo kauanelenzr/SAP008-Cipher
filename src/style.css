@@ -1,26 +1,45 @@
-#offset {
-    width: 7%;
-}
 h1 {
-    text-align: center;
-    font-size: 300%;
+    color: darkslateblue;
+    font-size: 50px;
+    
 }
-#selectOffset {
+
+body {
+    background-color: rosybrown;
     text-align: center;
 }
-#encodeText {
-    text-align: center;
-    display: block;
+
+#cifrar, #decifrar {
+    background-color: white;
+    margin: auto 800px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
 }
-#decodeText {
-    text-align: center;
-    display: block;
+
+#botaoCifragem, #botaoDecifragem {
+    margin-top: 10px;
 }
-#encodeButton {
-    text-align: center;
-    display: block;
+
+br {
+    font-size: 17px;
 }
-#decodeButton {
-    text-align: center;
-    display: blockd;
+
+#textoCifragem, #textoDecifragem {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#deslocamentoCifragem, #deslocamentoDecifragem {
+    width: 50px;
+}
+
+#respostaCifragem, #respostaDecifragem {
+    background-color: rosybrown;
+    height: 20px;
+    width: 210px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
 }
