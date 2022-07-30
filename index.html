@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Cifra de Cesar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    
+    <header>
+      <img src="cypher.png">
+      <h1>Cypher Project</h1>
+    </header>
+    
+    
+    <div id="cifrar">
+      <br>Escreva a palavra que deseja cifrar:
+      <textarea name="textoCifra" id="textoCifragem" cols="30" rows="10" value="texto"></textarea>
+      <br>Escolha o deslocamento das letras:<br>
+      <input id="deslocamentoCifragem" type="number" value="offset">
+      <br>
+      <button id="botaoCifragem">Cifrar</button>
+      <br>
+      <div id="respostaCifragem"></div>
+    </div>
+
+    <div id="decifrar">
+      <br>Escreva a palavra que deseja decifrar:
+      <textarea name="textoDecifra" id="textoDecifragem" cols="30" rows="10" value="texto"></textarea>
+      <br>Escolha o deslocamento das letras:<br>
+      <input id="deslocamentoDecifragem" type="number" value="offset">
+      <br>
+      <button id="botaoDecifragem">Decifrar</button>
+      <br>
+      <div id="respostaDecifragem"></div>
+    </div>
+    
+    <script src="index.js" type="module"></script>
+
+  </body>
+</html>
